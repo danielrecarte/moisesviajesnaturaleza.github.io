@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(243, 241, 239);
+
+    }
+    h1{
+        padding-left: 20px;
+    }
+    header{
+        display: inline-block;
+        background-color:rgb(5, 5, 49);
+        color: white;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+  
+    nav ul{
+        
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.4s ease;
+    }
+    nav ul li a:hover{
+        color: blue;
+
+    }
+    section{
+        padding: 20px;
+        display: inline-block;
+       
+    }
+    .padre1{
+        margin: 0 90px;
+        width: 250px;
+        background: white;
+        border-radius: 15px;
+        display: inline-block;
+        box-shadow: 1px 1px 5px  black;
+        transition: all 0.5s ease;
+    }
+    .padre1:hover{
+        transform: scale(1.1);
+
+    }
+    
+    .imgmon{
+        width: 100%;
+        height: auto;
+        border-radius: 5px; 
+    }
+    .titulomon{
+        padding-left: 5px;
+    }
+    .textmon{
+        padding: 5px;
+    }
+
+
+    .padre2{
+        margin: 0 50px;
+        width: 250px;
+        background: white;
+        border-radius: 15px;
+        display: inline-block;
+        box-shadow: 1px 1px 5px  black;
+        transition: all 0.5s ease;
+    }
+
+    .padre2:hover{
+        transform: scale(1.1);
+
+    }
+    .imgbos{
+        width: 100%;
+        height: auto;
+        border-radius: 5px; 
+    }
+    .titulobos{
+        padding-left: 5px;
+    }
+    .textbos{
+        padding: 5px;
+    }
+
+
+    .padre3{
+        margin: 0 50px;
+        width: 250px;
+        background: white;
+        border-radius: 15px;
+        display: inline-block;
+        box-shadow: 1px 1px 5px  black;
+        transition: all 0.5s ease;
+    }
+
+    .padre3:hover{
+        transform: scale(1.1);
+
+    }
+
+
+    .imgcos{
+        width: 100%;
+        height: auto;
+        border-radius: 5px; 
+    }
+    .titulocos{
+        padding-left: 5px;
+    }
+    .textcos{
+        padding: 5px;
+    }
+
+
+
+
+
+
+    table{
+        width: 80%;
+        margin: 20px auto;
+        text-align: left;
+        box-shadow: 1px 1px 3px black;
+        border-collapse: collapse;
+        border-radius: 5px;
+    }
+    td{
+        padding: 10px;
+        border-bottom: 1px solid rgb(189, 168, 168);
+    }
+    .th{
+        background-color: rgb(5, 5, 49);
+        color: white;
+    }
+    th{
+        padding: 10px;
+        border-bottom: 1px solid rgb(189, 168, 168);
+    }
+   
+   
+    tr{
+        transition: all 0.5s ease;
+    }
+    tr:hover{
+        background-color: rgba(131, 115, 115, 0.425);
+        
+    }
+    
+    .th{
+        transition: all 0.5s ease;
+    }
+    .th:hover{
+        background-color: white;
+        color: black;
+    }
+    
+</style>
+<body>
+    <header>
+        <h1>Viajes y Naturaleza</h1>
+        <nav>
+            
+            <ul>
+                <li><a href="">Inicio</li></a>
+                <LI><a href="">Galeria</a></LI>
+                <LI><a href="">Destino</a></LI>
+                <LI><a href="">Contacto</a></LI>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="padre1">
+            <img class="imgmon"  src="https://previews.123rf.com/images/muha/muha0904/muha090400011/4665621-paisaje-de-monta%C3%B1a-con-r%C3%ADos-y-bosques.jpg" alt="">
+            <h4 class="titulomon">Paisaje de montaña</h4>
+            <p class="textmon">Impresionantes vistas de cordilleras y picos nevados</p>
+        </div>
+        <div class="padre2">
+            <img class="imgbos"  src="https://www.locafm.com/uploads/media/noticias/0001/02/thumb_1517_noticias_large.jpeg" alt="">
+            <h4 class="titulobos">Bosques Misteriosos</h4>
+            <p class="textbos">Explorando la tranquilidad de los bosques antiguos</p>
+        </div>
+
+        <div class="padre3">
+            <img class="imgcos"  src="https://complejoclarita.com.ar/wp-content/uploads/playa-paradisiaca-en-santa-teresa-costa-rica-1024x683.jpg" alt="">
+            <h4 class="titulocos">Costas Paradisiacas</h4>
+            <p class="textmon">Playas de arenas blancas y agua cristalina</p>
+        </div>
+    </section>
+    <table>
+        <tr class="th">
+            <th>Destino</th>
+            <th>Pais</th>
+            <th>Dificultad</th>
+            <th>Temporada Recomendada</th>
+        </tr>
+        <tr>
+            <td>Machu Picchu</td>
+            <td>Perú</td>
+            <td>Alta</td>
+            <td>Mayo-Septiembre</td>
+        </tr> 
+        <tr>
+            <td>Glaciares de Patagona</td>
+            <td>Argentina</td>
+            <td>Media</td>
+            <td>Diciembre-Febrero</td>
+        </tr> 
+        <tr>
+            <td>Islas Galápagos</td>
+            <td>Ecuador</td>
+            <td>Baja</td>
+            <td>Todo el año</td>
+        </tr> 
+        <tr>
+            <td>Torres del Paine</td>
+            <td>Chile</td>
+            <td>Alta</td>
+            <td>Noviembre-Marzo</td>
+        </tr>
+    </table>
+</body>
+</html> 
